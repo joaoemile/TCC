@@ -4,8 +4,8 @@ Bem-vindo ao repositório da minha monografia, intitulada "PREVISÃO DE INFLAÇ�
 
 ## Estrutura do Repositório
 
-- **`data/`**: Contém o arquivo `Dados_TCC_2014_2024_Normalizados_TabUnica.xlsx` com dados normalizados do IPCA e variáveis preditoras, de 2014 a 2024.
-- **`scripts/`**: Contém o script principal `main.ipynb` (ou outro nome que você definir) para carregamento, processamento, feature selection, treinamento de modelos e avaliação.
+- **`data/`**: Contém o arquivo `Dados_TCC_2014_2024_Normalizados_TabUnica.xlsx` com o conjunto de dados utilizados no projeto unidos em uma única tabela, normalizados entre 0 e 1 e com defasagens dos ultimos 12 meses adicionados para cada variável.
+- **`scripts/`**: Contém o script principal `main.ipynb` para carregamento, processamento, feature selection, treinamento de modelos e avaliação.
 - **`requirements.txt`**: Lista de dependências Python necessárias para executar os scripts.
 
 ## Como Utilizar
