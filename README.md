@@ -12,9 +12,9 @@ Bem-vindo ao repositório da minha monografia, intitulada "PREVISÃO DE INFLAÇ�
 
 1. **Pré-requisitos**:
    - Python 3.8+ instalado.
-   - Bibliotecas listadas em `requirements.txt`. Para instalá-las, execute:
-     ```bash
-     pip install -r requirements.txt
+   - Bibliotecas listadas em `requirements.txt`.
+   - Jupyter Notebook ou JupyterLab para executar o arquivo.
+
 2. **Execução do Script**:
    - Navegue até a pasta scripts/ e execute o script principal
    - O script realiza:
