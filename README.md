@@ -1,11 +1,14 @@
 # Repositório da Monografia
 
-Bem-vindo ao repositório da minha monografia, intitulada "PREVISÃO DE INFLAÇÃO NO BRASIL: ANALISANDO A EFICÁCIA DE MODELOS DE MACHINE LEARNING". Este repositório contém os dados e scripts em Python utilizados para previsão do IPCA (Índice de Preços ao Consumidor Amplo) no âmbito da pesquisa apresentada. O objetivo é disponibilizar à banca corretora todos os recursos necessários para reproduzir os resultados e compreender a metodologia aplicada.
+Bem-vindo ao repositório da minha monografia, intitulada "PREVISÃO DE INFLAÇÃO NO BRASIL: ANALISANDO A EFICÁCIA DE MODELOS DE MACHINE LEARNING". Este repositório contém os dados e scripts em Python utilizados ao longo da fabricação do trabalho que tem como objetivo a previsão do IPCA (Índice de Preços ao Consumidor Amplo) no âmbito da pesquisa apresentada. O objetivo é disponibilizar à banca corretora todos os recursos necessários para reproduzir os resultados e compreender a metodologia aplicada.
+
+Os arquivos finais, utilizados efetivamente na versão final do trabalho, são: `Dados_TCC_2014_2024_Normalizados_TabUnica.xlsx` e `main.ipynb`
 
 ## Estrutura do Repositório
 
-- **`data/`**: Contém o arquivo `Dados_TCC_2014_2024_Normalizados_TabUnica.xlsx` com o conjunto de dados utilizados no projeto unidos em uma única tabela, normalizados entre 0 e 1 e com defasagens dos ultimos 12 meses adicionados para cada variável.
-- **`scripts/`**: Contém o script principal `main.ipynb` para carregamento, processamento, feature selection, treinamento de modelos e avaliação.
+- **`data/`**: Contem arquivos de bases de dados, sendo o arquivo `Dados_TCC_2014_2024_Normalizados_TabUnica.xlsx` com o conjunto de dados utilizados no projeto unidos em uma única tabela, normalizados entre 0 e 1 e com defasagens dos ultimos 12 meses adicionados para cada variável.
+- **`scripts/`**: Contém scripts feitos ao longo da pesquisa, sendo maior parte testes e tentativas anteriores, utilizando outra base de dados que veio a ser trocada (antes a variável alvo era o IPCA acumulado). O script `main.ipynb` foi o efetivamente utilizado para carregamento, processamento, feature selection, treinamento de modelos e avaliação.
+- **`arquivos/`**: Trata-se de arquivos gerados por mim para servir como base para imagens e tabelas de fabricação própria para a pesquisa, sendo algumas não utilizadas ou alteradas posteiormente.
 - **`requirements.txt`**: Lista de dependências Python necessárias para executar os scripts.
 
 ## Como Utilizar
