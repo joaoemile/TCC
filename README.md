@@ -8,7 +8,7 @@ Os arquivos finais, utilizados efetivamente na versão final do trabalho, são: 
 
 - **`data/`**: Contem arquivos de bases de dados, sendo o arquivo `Dados_TCC_2014_2024_Normalizados_TabUnica.xlsx` com o conjunto de dados efetivamente utilizados no trabalho, unidos em uma única tabela, normalizados entre 0 e 1 e com defasagens dos ultimos 12 meses adicionados para cada variável.
 - **`scripts/`**: Contém scripts feitos ao longo da pesquisa, sendo maior parte para aprendizado, testes e tentativas anteriores, utilizando outra base de dados que veio a ser trocada (maior parte usava a variável alvo como o IPCA acumulado). O script `main.ipynb` foi o efetivamente utilizado para carregamento, processamento, feature selection, treinamento de modelos e avaliação.
-- **`arquivos/`**: Trata-se de arquivos gerados por mim para servir como base para imagens e tabelas de fabricação própria para a pesquisa, sendo algumas não utilizadas ou alteradas posteiormente.
+- **`arquivos/`**: Trata-se de arquivos gerados por mim para servir como base para imagens e tabelas de fabricação própria para a pesquisa, sendo algumas não utilizadas ou alteradas posteriormente.
 - **`requirements.txt`**: Lista de dependências Python necessárias para executar os scripts.
 
 ## Como Utilizar
